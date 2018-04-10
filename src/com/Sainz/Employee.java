@@ -5,6 +5,30 @@ public class Employee {
     private String employeeFirstName;
     private String employeeLastName;
 
+    /*
+       public Course() {
+    }
+
+    public Course(String courseNumber, String courseName) {
+        this.courseNumber = courseNumber;
+        this.courseName = courseName;
+    }
+
+    public Course(String courseNumber, String courseName, String roomNumber)
+    {
+        this.courseNumber = courseNumber;
+        this.courseName = courseName;
+        this.roomNumber = roomNumber;
+    }
+     */
+
+    //unclear why this is in here - an overloaded constructor for fewer variables?
+
+    public Employee(String employeeNumber, String employeeFirstName) {
+        this.employeeNumber = employeeNumber;
+        this.employeeFirstName = employeeFirstName;
+    }
+
     public Employee(String employeeNumber, String employeeFirstName, String employeeLastName) {
         this.employeeNumber = employeeNumber;
         this.employeeFirstName = employeeFirstName;
